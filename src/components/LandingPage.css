@@ -42,6 +42,8 @@
     margin-bottom: 20px;
 }
 
+.footerDiv,
+.contactDiv,
 .locationDiv,
 .wineryDiv,
 .agendaDiv {
@@ -88,4 +90,33 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+
+.contactName {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contactEmail {
+    text-align: center;
+    font-size: 22px;
+}
+
+.contactEmail a {
+    color: purple;
+    text-decoration: none;
+}
+
+.contactEmail a:hover {
+    color: green;
+}
+
+.contactEmail a:visited {
+    color: purple;
+}
+
+.sponsorLogo {
+    width: 350px;
 }

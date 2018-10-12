@@ -7,6 +7,8 @@ import AgendaTable from './AgendaTable';
 import Banner from './Banner';
 import FeaturedWinery from './FeaturedWinery';
 import Location from './Location';
+import Contact from './Contact';
+import Footer from './Footer';
 
 import './LandingPage.css';
 
@@ -23,6 +25,8 @@ const LandingPage = () => {
                 <Banner>#womenOfwine</Banner>
                 <FeaturedWinery />
                 <Location />
+                <Contact />
+                <Footer />
                 
             </Grid>
         </div>
