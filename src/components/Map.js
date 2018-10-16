@@ -42,7 +42,7 @@ class GoogleMap extends Component {
   render() {
     return (
       <ReactMapGL
-        mapboxApiAccessToken={process.env.MAP_TOKEN}
+        mapboxApiAccessToken={process.env.REACT_APP_MAP_TOKEN}
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
         scrollZoom={false}
