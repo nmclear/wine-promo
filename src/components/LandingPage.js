@@ -2,7 +2,6 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
 import IntroSection from './IntroSection';
-import AgendaTable from './AgendaTable';
 import Agenda from './Agenda';
 import Banner from './Banner';
 import ButtonRsvp from './ButtonRsvp';
@@ -14,7 +13,6 @@ import Footer from './Footer';
 import GoogleMap from './GoogleMap';
 
 import './LandingPage.css';
-// <Banner>#womenOfwine</Banner>
 
 const LandingPage = () => {
     return (

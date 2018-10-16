@@ -10,13 +10,6 @@
     background-size: cover;
     /* height: 100vh; */
     width: 100%;
-
-    /* background-image: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url('./../images/wine-grapes.jpg'); */
 }
 
 .introSection {
@@ -64,20 +57,9 @@
 }
 
 .logo {
-    /* font-size: 80px;
-    margin-bottom: 100px; */
-    /* color: #e4f5fc; */
-    /* color:white;
-    text-shadow: 4px 4px 3px #000000;
-    font-size: 115px; */
-
-
-    /* margin-bottom: 100px; */
-        /* color: #e4f5fc; */
     color:white;
     margin-top: 0;
     margin-bottom: 5px;
-    /* text-shadow: 1px 1px 1px #000000; */
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -96,81 +78,24 @@
     text-transform: uppercase;
 }
 
-.headerDetails {
-    font-size: 30px;
-    line-height: 10px;
-    letter-spacing: 1px;
-    color: #e4f5fc;
-    color: white;
-    text-shadow: 1px 1px 1px #000000;
-}
-
 .landingCircle {
     background: #00BFFF;
     opacity: 0.6;
-    /* width: 60%; */
     width: 400px;
 
 }
 
-.locationHeader {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.locationDetail {
-    font-size: 25px;
-    /* color: #722f37; */
-    color: #AC1D1C;
-    text-align: center;
-    margin-top: 0;
-}
-
-.jumboBackground {
-    /* background: #e4f5fc; */
-    width: 100%;
-    height: calc(100% - 40px);
-    margin: 0 auto;
-    padding-top: 40px;
-}
-.jumboDiv {
-    /* background: rgb(240, 245, 248); */
-    background: white;
-    width: 900px;
-    min-height: 400px;
-    font-size: 15px;
-    margin: 25px auto;
-
-}
-
-.jumboText {
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-}
-
-.jumboText p {
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.5;
-}
 
 .footerDiv,
 .contactDiv,
-.locationDiv,
-.wineryDiv,
-.agendaDiv {
+.wineryDiv {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
     min-height: 300px;
-    /* margin: 15px auto; */
     margin: 0 auto;
 }
 
-.testAgendaDiv,
 .agendaDiv {
     background-image: 
       linear-gradient(
@@ -183,28 +108,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* min-height: 100vh; */
     width: 100%;
 }
 
-/* .agendaDiv, */
+
 .footerDiv,
-.locationDiv {
-    /* background: white; */
-    background: #f9f9f9;
-}
-
-.footerDiv {
-    /* background: #e4f5fc; */
-    /* background:#EFFFEF; */
-}
-
-.jumboBackground,
-/* .contactDiv, */
 .wineryDiv {
-    /* background: rgb(240, 245, 248); */
-    /* background: url('./../images/vertical-waves.png'); */
-    /* background: #FBF7FF */
     background: #f9f9f9;
 }
 
@@ -218,8 +127,7 @@
     margin-block-start: 28px;
 }
 
-#wineryTable,
-#agendaTable {
+#wineryTable {
     width: 1024px;
     margin: 0 auto;
     padding-top: 40px;
@@ -228,13 +136,6 @@
 .tableRow {
     border-top:#D3D3D3 solid 1px;
     padding: 10px;
-}
-
-.rowTime {
-    text-transform: uppercase;
-    font-size: 28px;
-    /* color: #722f37; */
-    color: #AC1D1C;
 }
 
 .rowTitle {
@@ -246,12 +147,6 @@
 .description {
     font-size: 14px;
     letter-spacing: 1px;
-}
-
-.rowSpeaker {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 600;
 }
 
 .footerHeader {
@@ -266,6 +161,7 @@
     font-size: 18px;
 }
 
+.footerText a:visited,
 .footerText a {
     color: #605E5E;
     text-decoration: none;
@@ -275,17 +171,10 @@
     color: #00BFFF;
 }
 
-.footerText a:visited {
-    /* color: #722f37; */
-    /* color: #AC1D1C; */
-    /* color: #00BFFF; */
-    color: #605E5E;
-}
 
 .contactName {
     text-align: center;
     font-size: 24px;
-    /* font-weight: bold; */
     color: white;
 }
 
@@ -294,20 +183,14 @@
     font-size: 22px;
 }
 
+.contactEmail a:visited,
 .contactEmail a {
-    /* color: #722f37; */
-    /* color: #AC1D1C; */
     color: #605E5E;
     text-decoration: none;
 }
 
 .contactEmail a:hover {
     color: white;
-}
-
-.contactEmail a:visited {
-    /* color: #722f37; */
-    color: #AC1D1C;
 }
 
 .sponsorLogo {
@@ -325,13 +208,11 @@
 }
 
 #buttonType:hover {
-    /* color: #722f37; */
     color: #00BFFF;
-    
     background: white;
 }
 
-.testAgendaDiv,
+.agendaDiv,
 .testDiv {
     width: 100%;
     text-align: 0 auto;
@@ -339,19 +220,18 @@
     padding-bottom: 40px;
 }
 
-.testAgendaDiv h4,
+.agendaDiv h4,
 .testDiv h4 {
     color: #605E5E;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.testAgendaDiv h4 {
+.agendaDiv h4 {
     text-align: center;
 }
 
 .agendaInfo {
-
     padding-bottom: 70px;
 }
 

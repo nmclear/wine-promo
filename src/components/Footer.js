@@ -1,15 +1,10 @@
 import React from'react';
 import Grid from '@material-ui/core/Grid';
-
 import SponsorImg from './../images/sponsor.png'
-// <h1 className='header'>Women of Wine</h1>
+
 const Footer = () => (
     
-
     <Grid className='footerDiv'>
-        <Grid item xs={12}>
-            
-        </Grid>
         <Grid item xs={12}>
             <Grid container>
                 <Grid item xs={12}>
@@ -26,9 +21,6 @@ const Footer = () => (
             </Grid>
         </Grid>
     </Grid>
-
-
-
 )
 
 export default Footer;

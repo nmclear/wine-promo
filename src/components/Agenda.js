@@ -1,11 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
 
 const Agenda = () => (
 
 
-    <Grid container className='testAgendaDiv' direction='column' alignItems='center'> 
+    <Grid container className='agendaDiv' direction='column' alignItems='center'> 
         <Grid item xs={12}>
             <h4>AGENDA /</h4>
             <Grid container direction='column' alignItems='center'>
