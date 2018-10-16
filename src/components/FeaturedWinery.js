@@ -7,7 +7,7 @@ import description from './wineryDescription';
 const FeaturedWinery = () => (
     <Grid className='wineryDiv'>
         <Grid item xs={12}>
-            <h1 className='header'>Featured Winery</h1>
+            <h1 className='blueHeader'>Featured Winery</h1>
         </Grid>
         <Grid item xs={12} id='wineryTable'>
             <Grid container className='tableRow'>

@@ -10,7 +10,7 @@ const Location = () => (
     <Grid item xs={12} id='wineryTable'>
         <Grid container >
             <Grid item xs={12}>
-                <p className='locationHeader'>October 24th, 2018 -- 6:00PM - 8:00PM</p>
+                <p className='locationHeader'>October 24th, 2018 -- 6:00PM - 9:00PM</p>
             </Grid>
         </Grid>
         <Grid container >

@@ -1,30 +1,34 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
-import MainHeader from './MainHeader';
-import AboutJumbo from './AboutJumbo';
+import IntroSection from './IntroSection';
 import AgendaTable from './AgendaTable';
+import Agenda from './Agenda';
 import Banner from './Banner';
+import ButtonRsvp from './ButtonRsvp';
 import FeaturedWinery from './FeaturedWinery';
-import Location from './Location';
+import LocationDiv from './LocationDiv';
 import Contact from './Contact';
 import Footer from './Footer';
 
-import './LandingPage.css';
+import GoogleMap from './GoogleMap';
 
+import './LandingPage.css';
+// <Banner>#womenOfwine</Banner>
 
 const LandingPage = () => {
     return (
         <div className='background'>
             <Grid container alignItems='center' direction='column'>
                 
-
-                <MainHeader />
-                <AboutJumbo />
-                <AgendaTable />
-                <Banner>#womenOfwine</Banner>
+                <IntroSection />
+                <Banner>
+                    <ButtonRsvp />
+                </Banner>
+                <LocationDiv />
+                <Agenda />
                 <FeaturedWinery />
-                <Location />
+                <GoogleMap/>
                 <Contact />
                 <Footer />
                 

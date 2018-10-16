@@ -1,17 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .background {
-    background-image: url('./../images/wine-grapes.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
+    width: 100%;
+
+    /* background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('./../images/wine-grapes.jpg'); */
 }
 
+.introSection {
+      background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25)
+      ),
+      url('./../images/wine-grapes.jpg');
+    
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 600px;
+    height: calc(100vh - 120px);
+    width: 100%;
+}
+
+.blueHeader,
 .header {
     margin: 0;
     font-size: 40px;
-    color: purple;
+    letter-spacing: 7px;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+    color: white;
+    text-shadow: 1px 1px 1px #605E5E;
+}
+
+.blueHeader {
+    color:#00BFFF;
+    text-shadow: 1px 1px 1px white;
+}
+
+.mainHeaderDiv {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+    background: transparent;
+}
+
+.logo {
+    /* font-size: 80px;
+    margin-bottom: 100px; */
+    /* color: #e4f5fc; */
+    /* color:white;
+    text-shadow: 4px 4px 3px #000000;
+    font-size: 115px; */
+
+
+    /* margin-bottom: 100px; */
+        /* color: #e4f5fc; */
+    color:white;
+    margin-top: 0;
+    margin-bottom: 5px;
+    /* text-shadow: 1px 1px 1px #000000; */
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.landingDate {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.landingLocation {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.headerDetails {
+    font-size: 30px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color: #e4f5fc;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.landingCircle {
+    background: #00BFFF;
+    opacity: 0.6;
+    /* width: 60%; */
+    width: 400px;
+
 }
 
 .locationHeader {
@@ -22,24 +121,40 @@
 
 .locationDetail {
     font-size: 25px;
-    color: purple;
+    /* color: #722f37; */
+    color: #AC1D1C;
     text-align: center;
     margin-top: 0;
 }
 
+.jumboBackground {
+    /* background: #e4f5fc; */
+    width: 100%;
+    height: calc(100% - 40px);
+    margin: 0 auto;
+    padding-top: 40px;
+}
 .jumboDiv {
-    text-align: center;
-    background: rgb(240, 245, 248);
-    width: 1024px;
-    height: 400px;
-
+    /* background: rgb(240, 245, 248); */
+    background: white;
+    width: 900px;
+    min-height: 400px;
     font-size: 15px;
+    margin: 25px auto;
 
+}
 
-    margin-top: 0;
-    margin-right: 37px;
-    margin-left: 37px;
-    margin-bottom: 20px;
+.jumboText {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.jumboText p {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5;
 }
 
 .footerDiv,
@@ -48,8 +163,53 @@
 .wineryDiv,
 .agendaDiv {
     width: 100%;
-    background: rgb(240, 245, 248);
     padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 300px;
+    /* margin: 15px auto; */
+    margin: 0 auto;
+}
+
+.testAgendaDiv,
+.agendaDiv {
+    background-image: 
+      linear-gradient(
+        rgba(0, 191, 255, 0.75),
+        rgba(0, 191, 255, 0.75)
+      ),
+      url('./../images/wine-grapes.jpg');
+    
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* min-height: 100vh; */
+    width: 100%;
+}
+
+/* .agendaDiv, */
+.footerDiv,
+.locationDiv {
+    /* background: white; */
+    background: #f9f9f9;
+}
+
+.footerDiv {
+    /* background: #e4f5fc; */
+    /* background:#EFFFEF; */
+}
+
+.jumboBackground,
+/* .contactDiv, */
+.wineryDiv {
+    /* background: rgb(240, 245, 248); */
+    /* background: url('./../images/vertical-waves.png'); */
+    /* background: #FBF7FF */
+    background: #f9f9f9;
+}
+
+.contactDiv {
+    background: #00BFFF;
 }
 
 .wineryImg {
@@ -62,17 +222,19 @@
 #agendaTable {
     width: 1024px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .tableRow {
-    border-top: black solid 1px;
+    border-top:#D3D3D3 solid 1px;
     padding: 10px;
 }
 
 .rowTime {
     text-transform: uppercase;
     font-size: 28px;
-    color: purple;
+    /* color: #722f37; */
+    color: #AC1D1C;
 }
 
 .rowTitle {
@@ -92,11 +254,39 @@
     font-weight: 600;
 }
 
+.footerHeader {
+    color:#00BFFF;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footerText {
+    text-align: center;
+    font-size: 18px;
+}
+
+.footerText a {
+    color: #605E5E;
+    text-decoration: none;
+}
+
+.footerText a:hover {
+    color: #00BFFF;
+}
+
+.footerText a:visited {
+    /* color: #722f37; */
+    /* color: #AC1D1C; */
+    /* color: #00BFFF; */
+    color: #605E5E;
+}
 
 .contactName {
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    color: white;
 }
 
 .contactEmail {
@@ -105,18 +295,182 @@
 }
 
 .contactEmail a {
-    color: purple;
+    /* color: #722f37; */
+    /* color: #AC1D1C; */
+    color: #605E5E;
     text-decoration: none;
 }
 
 .contactEmail a:hover {
-    color: green;
+    color: white;
 }
 
 .contactEmail a:visited {
-    color: purple;
+    /* color: #722f37; */
+    color: #AC1D1C;
 }
 
 .sponsorLogo {
     width: 350px;
+}
+
+#buttonType {
+    padding: 10px 60px;
+    height: 50;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: white;
+    border: white solid 1px;
+    background: transparent;
+}
+
+#buttonType:hover {
+    /* color: #722f37; */
+    color: #00BFFF;
+    
+    background: white;
+}
+
+.testAgendaDiv,
+.testDiv {
+    width: 100%;
+    text-align: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testAgendaDiv h4,
+.testDiv h4 {
+    color: #605E5E;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.testAgendaDiv h4 {
+    text-align: center;
+}
+
+.agendaInfo {
+
+    padding-bottom: 70px;
+}
+
+.agendaInfo:nth-child(4) {
+    padding-bottom: 0;
+}
+
+
+.agendaInfo p {
+    text-align: center;
+    margin: 0;
+}
+
+.agendaInfo p:first-child {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #605E5E;
+}
+
+.agendaInfo p:nth-child(2) {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.testDiv .timeInfo,
+.testDiv .locationInfo {
+    text-align: center;
+    width: 50%;
+}
+
+.testDiv .timeInfo p,
+.testDiv .locationInfo p {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #605E5E;
+    margin: 0;
+}
+
+.testDiv h1 {
+    text-align: center;
+}
+
+.testDiv .eventInfo {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.testDiv .eventInfo p {
+    color: #605E5E;
+    font-size: 18px;
+}
+
+.arrowContainer {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+}
+
+.downArrow {
+    color: white;
+    font-size: 60px !important;
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }

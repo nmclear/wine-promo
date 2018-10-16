@@ -12,7 +12,7 @@ const AgendaTable = () => (
         <Grid item xs={12} id='agendaTable'>
             <Grid container className='tableRow'>
                 <Grid item xs={3}>
-                    <p className='rowTime'>6:00pm - 6:25pm</p>
+                    <p className='rowTime'>7:00pm - 7:25pm</p>
                 </Grid>
                 <Grid item xs={9}>
                     <p className='rowTitle'>Networking + Food</p>
@@ -20,7 +20,7 @@ const AgendaTable = () => (
             </Grid>
             <Grid container className='tableRow'>
                 <Grid item xs={3}>
-                    <p className='rowTime'>6:25pm - 6:30pm</p>
+                    <p className='rowTime'>7:25pm - 7:30pm</p>
                 </Grid>
                 <Grid item xs={6}>
                     <p className='rowTitle'>Welcoming Words</p>
@@ -31,7 +31,7 @@ const AgendaTable = () => (
             </Grid>
             <Grid container className='tableRow'>
                 <Grid item xs={3}>
-                    <p className='rowTime'>6:30pm - 7:30pm</p>
+                    <p className='rowTime'>7:30pm - 8:00pm</p>
                 </Grid>
                 <Grid item xs={6}>
                     <p className='rowTitle'>Wine Tour</p>
@@ -42,7 +42,7 @@ const AgendaTable = () => (
             </Grid>
             <Grid container className='tableRow'>
                 <Grid item xs={3}>
-                    <p className='rowTime'>7:30pm - 8:00pm</p>
+                    <p className='rowTime'>8:00pm - 9:00pm</p>
                 </Grid>
                 <Grid item xs={9}>
                     <p className='rowTitle'>Networking</p>
