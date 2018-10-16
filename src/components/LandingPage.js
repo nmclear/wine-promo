@@ -6,13 +6,14 @@ import Agenda from './Agenda';
 import Banner from './Banner';
 import ButtonRsvp from './ButtonRsvp';
 import FeaturedWinery from './FeaturedWinery';
-import LocationDiv from './LocationDiv';
+import About from './About';
 import Contact from './Contact';
-import Footer from './Footer';
+import Sponsor from './Sponsor';
 
-import GoogleMap from './GoogleMap';
+import GoogleMap from './Map';
 
-import './LandingPage.css';
+import './../styles/components.css';
+import './../styles/bounce.css';
 
 const LandingPage = () => {
     return (
@@ -23,12 +24,12 @@ const LandingPage = () => {
                 <Banner>
                     <ButtonRsvp />
                 </Banner>
-                <LocationDiv />
+                <About />
                 <Agenda />
                 <FeaturedWinery />
-                <GoogleMap/>
+                <GoogleMap />
                 <Contact />
-                <Footer />
+                <Sponsor />
                 
             </Grid>
         </div>

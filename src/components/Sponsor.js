@@ -2,19 +2,21 @@ import React from'react';
 import Grid from '@material-ui/core/Grid';
 import SponsorImg from './../images/sponsor.png'
 
-const Footer = () => (
+const Sponsor = () => (
     
-    <Grid className='footerDiv'>
+    <Grid className='sponsorDiv'>
         <Grid item xs={12}>
             <Grid container>
                 <Grid item xs={12}>
-                    <p className='footerHeader'>Sponsored By: </p>
-                    <p className='contactEmail'>
-                        <a href="https://lakesandgrapes.com/" >
+                    <p className='sponsorHeader'>Sponsored By: </p>
+                    <div className='sponsorImgLink'>
+                        <a href="https://lakesandgrapes.com/">
                             <img className='sponsorLogo' src={SponsorImg} alt='Lakes And Grapes'/>
                         </a>
-                    </p>
-                    <p className='footerText'>
+                    
+                    </div>
+    
+                    <p className='sponsorText'>
                         <a href="https://lakesandgrapes.com/">lakesandgrapes.com</a>
                     </p>
                 </Grid>
@@ -23,4 +25,4 @@ const Footer = () => (
     </Grid>
 )
 
-export default Footer;
+export default Sponsor;

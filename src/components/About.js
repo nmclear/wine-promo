@@ -1,31 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import GoogleMap from './GoogleMap';
 import Typography from '@material-ui/core/Typography';
 
-import description from './wineryDescription';
-// <p className='description'>{description}</p>
-const LocationDiv = () => (
-    // <Grid className='locationDiv'>
-    //     <Grid item xs={12}>
-    //         <h1 className='header'>When & Where</h1>
-    //     </Grid>
-    //     <Grid item xs={12} id='wineryTable'>
-    //         <Grid container >
-    //             <Grid item xs={12}>
-    //                 <p className='locationHeader'>October 24th, 2018 -- 6:00PM - 9:00PM</p>
-    //             </Grid>
-    //         </Grid>
-    //         <Grid container >
-    //             <Grid item xs={12}>
-    //                 <p className='locationHeader'>Mari Vineyards</p>
-    //                 <p className='locationDetail'>8175 Center Rd Traverse City</p>
-    //             </Grid>
-    //         </Grid>
-    //     </Grid>
-    // </Grid>
+const About = () => (
 
-    <Grid container className='testDiv' direction='column'> 
+    <Grid container className='aboutDiv' direction='column'> 
         <Grid container direction='row' justify='center'>
             <Grid item xs={12} md={4}className='timeInfo'>
                 <h4>WHEN /</h4>
@@ -54,4 +33,4 @@ const LocationDiv = () => (
     </Grid>
 )
 
-export default LocationDiv;
+export default About;

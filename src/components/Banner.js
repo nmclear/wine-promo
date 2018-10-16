@@ -5,14 +5,14 @@ const styles = {
         background:'#00BFFF',
         width: '100%',
         textAlign: 'center',
-        height: '100px',
+        height: '80px',
         paddingBottom: '10px',
         paddingTop: '10px'
     },
     bannerText: {
         fontSize: '20px',
         color: 'white',
-        marginTop: '10px',
+        marginTop: '0px',
         marginBottom: '10px'
     }
 

@@ -4,14 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.background {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    /* height: 100vh; */
-    width: 100%;
-}
-
 .introSection {
       background-image: 
       linear-gradient(
@@ -25,7 +17,7 @@
     background-attachment: fixed;
     background-size: cover;
     min-height: 600px;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     width: 100%;
 }
 
@@ -79,14 +71,20 @@
 }
 
 .landingCircle {
-    background: #00BFFF;
-    opacity: 0.6;
+    /* background: #00BFFF;
+    opacity: 0.6; */
     width: 400px;
+
+    background: 
+      linear-gradient(
+        rgba(0, 191, 255, 0.6),
+        rgba(0, 191, 255, 0.6)
+      )
 
 }
 
 
-.footerDiv,
+.sponsorDiv,
 .contactDiv,
 .wineryDiv {
     width: 100%;
@@ -112,7 +110,7 @@
 }
 
 
-.footerDiv,
+.sponsorDiv,
 .wineryDiv {
     background: #f9f9f9;
 }
@@ -149,25 +147,25 @@
     letter-spacing: 1px;
 }
 
-.footerHeader {
+.sponsorHeader {
     color:#00BFFF;
     letter-spacing: 4px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.footerText {
+.sponsorText {
     text-align: center;
     font-size: 18px;
 }
 
-.footerText a:visited,
-.footerText a {
+.sponsorText a:visited,
+.sponsorText a {
     color: #605E5E;
     text-decoration: none;
 }
 
-.footerText a:hover {
+.sponsorText a:hover {
     color: #00BFFF;
 }
 
@@ -197,6 +195,10 @@
     width: 350px;
 }
 
+.sponsorImgLink {
+    text-align: center;
+}
+
 #buttonType {
     padding: 10px 60px;
     height: 50;
@@ -213,7 +215,7 @@
 }
 
 .agendaDiv,
-.testDiv {
+.aboutDiv {
     width: 100%;
     text-align: 0 auto;
     padding-top: 40px;
@@ -221,12 +223,13 @@
 }
 
 .agendaDiv h4,
-.testDiv h4 {
+.aboutDiv h4 {
     color: #605E5E;
     font-size: 14px;
     text-transform: uppercase;
 }
 
+.aboutDiv h1,
 .agendaDiv h4 {
     text-align: center;
 }
@@ -258,32 +261,29 @@
     text-transform: uppercase;
 }
 
-.testDiv .timeInfo,
-.testDiv .locationInfo {
+.aboutDiv .timeInfo,
+.aboutDiv .locationInfo {
     text-align: center;
     width: 50%;
 }
 
-.testDiv .timeInfo p,
-.testDiv .locationInfo p {
+.aboutDiv .timeInfo p,
+.aboutDiv .locationInfo p {
     text-transform: uppercase;
     font-size: 32px;
     color: #605E5E;
     margin: 0;
 }
 
-.testDiv h1 {
-    text-align: center;
-}
 
-.testDiv .eventInfo {
+.aboutDiv .eventInfo {
     width: 70%;
     margin: 0 auto;
     text-align: center;
     padding: 40px 10px;
 }
 
-.testDiv .eventInfo p {
+.aboutDiv .eventInfo p {
     color: #605E5E;
     font-size: 18px;
 }
@@ -299,58 +299,4 @@
 .downArrow {
     color: white;
     font-size: 60px !important;
-}
-
-.bounce {
-	-moz-animation: bounce 3s infinite;
-	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
-}
-@-moz-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
 }

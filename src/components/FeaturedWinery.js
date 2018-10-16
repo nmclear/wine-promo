@@ -11,19 +11,19 @@ const FeaturedWinery = () => (
         </Grid>
         <Grid item xs={12} id='wineryTable'>
             <Grid container className='tableRow'>
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
                     <p className='rowTitle'>Mari Vineyards</p>
                     <p className='description'>{description}</p>
                 </Grid>
             </Grid>
             <Grid container className='tableRow'>
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
                     <p className='rowTitle'>Mari Vineyards</p>
                     <p className='description'>{description}</p>
                 </Grid>
