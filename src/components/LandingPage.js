@@ -14,6 +14,7 @@ import GoogleMap from './Map';
 
 import './../styles/components.css';
 import './../styles/bounce.css';
+import './../styles/responsive.css';
 
 const LandingPage = () => {
     return (

@@ -8,6 +8,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 const TOKEN = ``;
 
 
+
 const navStyle = {
     position: 'absolute',
     top: 0,
@@ -47,6 +48,7 @@ class GoogleMap extends Component {
         mapboxApiAccessToken={TOKEN}
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
+        scrollZoom={false}
       >
         <div className="nav" style={navStyle}>
           <NavigationControl onViewportChange={(viewport) => this.setState({viewport})} />

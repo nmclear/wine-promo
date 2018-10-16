@@ -12,7 +12,10 @@ const FeaturedWinery = () => (
         <Grid item xs={12} id='wineryTable'>
             <Grid container className='tableRow'>
                 <Grid item xs={12} md={4}>
-                    <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
+                    <div className='imgDiv'>
+                        <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
+                    </div>
+                    
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <p className='rowTitle'>Mari Vineyards</p>
@@ -21,7 +24,9 @@ const FeaturedWinery = () => (
             </Grid>
             <Grid container className='tableRow'>
                 <Grid item xs={12} md={4}>
-                    <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
+                    <div className='imgDiv'>
+                        <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <p className='rowTitle'>Mari Vineyards</p>

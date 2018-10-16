@@ -1,0 +1,142 @@
+@media only screen and (max-width: 500px) {
+
+    .agendaDiv,
+    .aboutDiv,
+    .sponsorDiv,
+    .contactDiv,
+    .wineryDiv {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        min-height: 0;
+    }
+
+    .blueHeader,
+    .header {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+
+    .introSection {
+        background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url('./../images/wine-grapes.jpg');
+      
+      min-height: 0;
+    }
+
+    .arrowContainer {
+        bottom: 110px;
+    }
+    
+    .downArrow {
+        font-size: 40px !important;
+    }
+
+    .mainHeaderDiv {
+        padding-top: 120px;
+        margin-bottom: 40px;
+    }
+
+    .landingCircle {
+        width: 100%;
+        background: none;
+    
+    }
+
+    .banner {
+        height: 80px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .bannerText {
+        font-size: 18px;
+    }
+
+    #buttonType {
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+    
+    #buttonType:hover {
+        color: #00BFFF;
+        background: white;
+    }
+
+
+    .aboutDiv .timeInfo,
+    .aboutDiv .locationInfo {
+        text-align: center;
+    }
+
+    .aboutDiv .timeInfo p,
+    .aboutDiv .locationInfo p {
+        font-size: 24px;
+    }
+
+
+    .aboutDiv .eventInfo {
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    .aboutDiv .eventInfo p {
+        font-size: 16px;
+    }
+
+    .agendaInfo {
+        padding-bottom: 30px;
+    }
+
+    .agendaInfo p:first-child {
+        font-size: 30px;
+    }
+
+    #wineryTable {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+
+    .imgDiv {
+        text-align: center;
+    }
+
+    .tableRow {
+        border-top:#D3D3D3 solid 1px;
+        padding: 5px;
+    }
+    
+    .rowTitle {
+        font-size: 24px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .contactName {
+        font-size: 20px;
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+    
+    .contactEmail {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .sponsorLogo {
+        width: 275px;
+        margin-bottom: 10px;
+    }
+
+    .sponsorText {
+        display: none;
+    }
+    
+}
