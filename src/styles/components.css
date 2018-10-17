@@ -171,7 +171,7 @@
 
 .contactEmail {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .contactEmail a:visited,
@@ -308,4 +308,33 @@
     color: white;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+.socialBar {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socialBar a {
+    color: white;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+.socialBar a:hover {
+    color: #605E5E;
+}
+
+.socialBar a:visited {
+    color: white;
+}
+
+.copyright {
+    color: #00BFFF;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    bottom: -15px;
+    width: 100%;
 }

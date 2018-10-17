@@ -8,7 +8,7 @@ const About = () => (
         <Grid container direction='row' justify='center'>
             <Grid item xs={12} md={4}className='timeInfo'>
                 <h4>WHEN /</h4>
-                <p>October 24th</p>
+                <p>October 25th</p>
                 <p>7 - 9PM</p>
             </Grid>
             <Grid item xs={12} md={4} className='locationInfo'>

@@ -7,7 +7,7 @@ const IntroSection = () => (
         <Grid container className='mainHeaderDiv' justify='center' alignItems='center' direction='column'>
                 
         <Grid item xs={12} className='landingCircle'>
-            <p className='landingDate'>October 24 / 7-9PM</p>
+            <p className='landingDate'>October 25 / 7-9PM</p>
             <p className='logo'>Women</p>
             <p className='logo'>- of -</p>
             <p className='logo'>Wine</p>

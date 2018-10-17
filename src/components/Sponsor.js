@@ -19,6 +19,9 @@ const Sponsor = () => (
                     <p className='sponsorText'>
                         <a href="https://lakesandgrapes.com/">lakesandgrapes.com</a>
                     </p>
+                    <p className='copyright'>
+                        © 2018 Lakes and Grapes
+                    </p>
                 </Grid>
             </Grid>
         </Grid>
