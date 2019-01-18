@@ -4,14 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.introSection {
+.intro-section {
       background-image: 
       linear-gradient(
         rgba(0, 0, 0, 0.25),
         rgba(0, 0, 0, 0.25)
       ),
       url('./../images/wine-grapes.jpg');
-    
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +20,7 @@
     width: 100%;
 }
 
-.blueHeader,
+.header-blue,
 .header {
     margin: 0;
     font-size: 40px;
@@ -36,12 +35,12 @@
     text-shadow: 1px 1px 1px #605E5E;
 }
 
-.blueHeader {
+.header-blue {
     color:#00BFFF;
     text-shadow: 1px 1px 1px white;
 }
 
-.mainHeaderDiv {
+.main-header-div {
     text-align: center;
     padding-top: 80px;
     margin-bottom: 40px;
@@ -57,29 +56,29 @@
     letter-spacing: 10px;
 }
 
-.landingDate {
+.landing-date {
     font-size: 20px;
     color: white;
     letter-spacing: 5px;
 }
 
-.landingLocation {
+.landing-location {
     font-size: 18px;
     color: white;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
-.landingCircle {
+.landing-circle {
     width: 400px;
     background: rgba(0, 191, 255, 0.6);
 
 }
 
 
-.sponsorDiv,
-.contactDiv,
-.wineryDiv {
+.sponsor-div,
+.contact-div,
+.winery-div {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -87,7 +86,7 @@
     margin: 0 auto;
 }
 
-.agendaDiv {
+.agenda-div {
     background-image: 
       linear-gradient(
         rgba(0, 191, 255, 0.75),
@@ -103,33 +102,38 @@
 }
 
 
-.sponsorDiv,
-.wineryDiv {
+.sponsor-div,
+.winery-div {
     background: #f9f9f9;
 }
 
-.contactDiv {
+.contact-div {
     background: #00BFFF;
 }
 
-.wineryImg {
-    background: black;
+.winery-img {
+    background: #fff;
     padding: 20px;
     margin-block-start: 28px;
+    width: 80%;
+    max-width: 450px;
+    /* margin: 0 auto; */
+    /* display:block;
+    margin:auto; */
 }
 
-#wineryTable {
+#winery-table {
     width: 1024px;
     margin: 0 auto;
     padding-top: 40px;
 }
 
-.tableRow {
+.table-row {
     border-top:#D3D3D3 solid 1px;
     padding: 10px;
 }
 
-.rowTitle {
+.row-title {
     text-transform: capitalize;
     font-size: 28px;
     font-weight: 600;
@@ -140,59 +144,59 @@
     letter-spacing: 1px;
 }
 
-.sponsorHeader {
+.sponsor-header {
     color:#00BFFF;
     letter-spacing: 4px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.sponsorText {
+.sponsor-text {
     text-align: center;
     font-size: 18px;
 }
 
-.sponsorText a:visited,
-.sponsorText a {
+.sponsor-text a:visited,
+.sponsor-text a {
     color: #605E5E;
     text-decoration: none;
 }
 
-.sponsorText a:hover {
+.sponsor-text a:hover {
     color: #00BFFF;
 }
 
 
-.contactName {
+.contact-name {
     text-align: center;
     font-size: 24px;
     color: white;
 }
 
-.contactEmail {
+.contact-email {
     text-align: center;
     font-size: 18px;
 }
 
-.contactEmail a:visited,
-.contactEmail a {
+.contact-email a:visited,
+.contact-email a {
     color: #605E5E;
     text-decoration: none;
 }
 
-.contactEmail a:hover {
+.contact-email a:hover {
     color: white;
 }
 
-.sponsorLogo {
+.sponsor-logo {
     width: 350px;
 }
 
-.sponsorImgLink {
+.sponsor-img-link {
     text-align: center;
 }
 
-#buttonType {
+#button-type {
     padding: 10px 60px;
     height: 50;
     font-size: 22px;
@@ -202,46 +206,46 @@
     background: transparent;
 }
 
-#buttonType:hover {
+#button-type:hover {
     color: #00BFFF;
     background: white;
 }
 
-.agendaDiv,
-.aboutDiv {
+.agenda-div,
+.about-div {
     width: 100%;
     text-align: 0 auto;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.agendaDiv h4,
-.aboutDiv h4 {
+.agenda-div h4,
+.about-div h4 {
     color: #605E5E;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.aboutDiv h1,
-.agendaDiv h4 {
+.about-div h1,
+.agenda-div h4 {
     text-align: center;
 }
 
-.agendaInfo {
+.agenda-info {
     padding-bottom: 70px;
 }
 
-.agendaInfo:nth-child(4) {
+.agenda-info:nth-child(4) {
     padding-bottom: 0;
 }
 
 
-.agendaInfo p {
+.agenda-info p {
     text-align: center;
     margin: 0;
 }
 
-.agendaInfo p:first-child {
+.agenda-info p:first-child {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
@@ -249,19 +253,19 @@
     text-shadow: 1px 1px 1px #605E5E;
 }
 
-.agendaInfo p:nth-child(2) {
+.agenda-info p:nth-child(2) {
     font-size: 16px;
     text-transform: uppercase;
 }
 
-.aboutDiv .timeInfo,
-.aboutDiv .locationInfo {
+.about-div .time-info,
+.about-div .location-info {
     text-align: center;
     width: 50%;
 }
 
-.aboutDiv .timeInfo p,
-.aboutDiv .locationInfo p {
+.about-div .time-info p,
+.about-div .location-info p {
     text-transform: uppercase;
     font-size: 32px;
     color: #605E5E;
@@ -269,19 +273,19 @@
 }
 
 
-.aboutDiv .eventInfo {
+.about-div .event-info {
     width: 70%;
     margin: 0 auto;
     text-align: center;
     padding: 40px 10px;
 }
 
-.aboutDiv .eventInfo p {
+.about-div .event-info p {
     color: #605E5E;
     font-size: 18px;
 }
 
-.arrowContainer {
+.arrow-container {
     text-align: center;
     margin: 0 auto;
     position: absolute;
@@ -289,7 +293,7 @@
     width: 100%;
 }
 
-.downArrow {
+.down-arrow {
     color: white;
     font-size: 60px !important;
 }
@@ -303,30 +307,30 @@
     padding-top: 10px;
 }
 
-.bannerText {
+.banner-text {
     font-size: 20px;
     color: white;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.socialBar {
+.social-bar {
     width: 100%;
     text-align: center;
     margin-top: 20px;
 }
 
-.socialBar a {
+.social-bar a {
     color: white;
     margin: 0px 30px;
     text-align: center;
 }
 
-.socialBar a:hover {
+.social-bar a:hover {
     color: #605E5E;
 }
 
-.socialBar a:visited {
+.social-bar a:visited {
     color: white;
 }
 

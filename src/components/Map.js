@@ -41,6 +41,8 @@ class GoogleMap extends Component {
 };
 
   render() {
+    const { location, markerLat, markerLong } = this.props;
+
     return (
       <ReactMapGL
         mapboxApiAccessToken={REACT_APP_MAP_TOKEN}
@@ -51,11 +53,11 @@ class GoogleMap extends Component {
         <div className="nav" style={navStyle}>
           <NavigationControl onViewportChange={(viewport) => this.setState({viewport})} />
         </div>
-        <Marker latitude={44.807497} longitude={-85.564399} offsetLeft={-20} offsetTop={-10}>
+        <Marker latitude={markerLat} longitude={markerLong} offsetLeft={-20} offsetTop={-10}>
           <PlaceIcon style={iconStyle} />
         </Marker>
-        <Marker latitude={44.807497} longitude={-85.564399} offsetLeft={-20} offsetTop={-30}>
-          <div style={LabelStyle}>Mari Vineyards</div>
+        <Marker latitude={markerLat} longitude={markerLong} offsetLeft={-20} offsetTop={-30}>
+          <div style={LabelStyle}>{location}</div>
         </Marker>
       
       </ReactMapGL>

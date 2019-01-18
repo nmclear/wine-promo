@@ -3,15 +3,15 @@ import Grid from '@material-ui/core/Grid';
 import SocialBar from './SocialBar';
 
 const Contact = () => (
-    <Grid className='contactDiv'>
+    <Grid className='contact-div'>
         <Grid item xs={12}>
             <h1 className='header'>Contact</h1>
         </Grid>
         <Grid item xs={12}>
             <Grid container justify='space-evenly'>
                 <Grid item xs={12} sm={12} md={12}>
-                    <p className='contactName'>Abby Clear</p>
-                    <p className='contactEmail'>
+                    <p className='contact-name'>Abby Clear</p>
+                    <p className='contact-email'>
                         <a href="mailto:abby@lakesandgrapes.com?subject=Women of Wine Meetup" >
                             abby@lakesandgrapes.com
                         </a> 

@@ -4,23 +4,23 @@ import SponsorImg from './../images/sponsor.png'
 
 const Sponsor = () => (
     
-    <Grid className='sponsorDiv'>
+    <Grid className='sponsor-div'>
         <Grid item xs={12}>
             <Grid container>
                 <Grid item xs={12}>
-                    <p className='sponsorHeader'>Sponsored By: </p>
-                    <div className='sponsorImgLink'>
+                    <p className='sponsor-header'>Sponsored By: </p>
+                    <div className='sponsor-img-link'>
                         <a href="https://lakesandgrapes.com/">
-                            <img className='sponsorLogo' src={SponsorImg} alt='Lakes And Grapes'/>
+                            <img className='sponsor-logo' src={SponsorImg} alt='Lakes And Grapes'/>
                         </a>
                     
                     </div>
     
-                    <p className='sponsorText'>
+                    <p className='sponsor-text'>
                         <a href="https://lakesandgrapes.com/">lakesandgrapes.com</a>
                     </p>
                     <p className='copyright'>
-                        © 2018 Lakes and Grapes
+                        © 2019 Lakes and Grapes
                     </p>
                 </Grid>
             </Grid>

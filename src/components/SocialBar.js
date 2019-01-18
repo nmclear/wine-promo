@@ -5,7 +5,7 @@ import { faInstagram, faFacebookF, faPinterestP } from '@fortawesome/free-brands
 
 const SocialBar = () => (
 
-    <div className='socialBar'>
+    <div className='social-bar'>
         <a href='https://www.facebook.com/womenofwinetc/' target='_blank' rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebookF} size="2x" />
         </a>

@@ -1,3 +1,0 @@
-
-
-export default  `Mari Vineyards founder Marty Lagina made the (some would say) crazy choice to grow grapes that shouldn't grow in Michigan, with the belief that he could produce world class wines that otherwise couldn't be made here. So, true to his Italian heritage, he planted exotic varieties like Nebbiolo, Sangiovese and others. Combined with a little creative grape growing and a lot of attention, today his dream has become a reality. Along with classic area grapes like Cabernet Franc and Merlot, Mari Vineyards produces a wide variety of red wines unlike anything else produced in Michigan.`

@@ -2,19 +2,19 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import DownArrow from '@material-ui/icons/ArrowDownward';
 
-const IntroSection = () => (
-    <div className='introSection'>
-        <Grid container className='mainHeaderDiv' justify='center' alignItems='center' direction='column'>
+const IntroSection = ({ date, time, location }) => (
+    <div className='intro-section'>
+        <Grid container className='main-header-div' justify='center' alignItems='center' direction='column'>
                 
-        <Grid item xs={12} className='landingCircle'>
-            <p className='landingDate'>October 25 / 7-9PM</p>
+        <Grid item xs={12} className='landing-circle'>
+            <p className='landing-date'>{`${date} / ${time}`}</p>
             <p className='logo'>Women</p>
             <p className='logo'>- of -</p>
             <p className='logo'>Wine</p>
-            <p className='landingLocation'>Mari Vineyards</p>
+            <p className='landing-location'>{location}</p>
         </Grid>
-        <Grid item xs={12} className='arrowContainer'>
-            <DownArrow className='bounce downArrow'/>
+        <Grid item xs={12} className='arrow-container'>
+            <DownArrow className='bounce down-arrow'/>
         </Grid>
 
     </Grid>

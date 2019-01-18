@@ -2,24 +2,25 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import logo from './../images/featured-winery.png';
 
-import description from './wineryDescription';
-
-const FeaturedWinery = () => (
-    <Grid className='wineryDiv'>
+const FeaturedWinery = ({ location, description, descriptionMore }) => (
+    <Grid className='winery-div'>
         <Grid item xs={12}>
-            <h1 className='blueHeader'>Featured Winery</h1>
+            <h1 className='header-blue'>Featured Location</h1>
         </Grid>
-        <Grid item xs={12} id='wineryTable'>
-            <Grid container className='tableRow'>
+        <Grid item xs={12} id='winery-table'>
+            <Grid container className='table-row'>
                 <Grid item xs={12} md={4}>
-                    <div className='imgDiv'>
-                        <img className='wineryImg' src={logo} alt='mari vineyards logo'/>
+                    <div className='img-div'>
+                        <img className='winery-img' src={logo} alt={`${location} logo`}/>
                     </div>
                     
                 </Grid>
                 <Grid item xs={12} md={8}>
-                    <p className='rowTitle'>Mari Vineyards</p>
+                    <p className='row-title'>{location}</p>
                     <p className='description'>{description}</p>
+                    {descriptionMore && (
+                        <p className='description'>{descriptionMore}</p>
+                    )}
                 </Grid>
             </Grid>
         </Grid>

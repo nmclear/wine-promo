@@ -1,16 +1,29 @@
+@media only screen and (max-width: 960px) {
+
+    .winery-img {
+        display:block;
+        margin:auto;
+    }
+
+    .winery-div .row-title {
+        text-align: center;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
-    .agendaDiv,
-    .aboutDiv,
-    .sponsorDiv,
-    .contactDiv,
-    .wineryDiv {
+    .agenda-div,
+    .about-div,
+    .sponsor-div,
+    .contact-div,
+    .winery-div {
         padding-top: 10px;
         padding-bottom: 20px;
         min-height: 0;
     }
 
-    .blueHeader,
+    .header-blue,
     .header {
         font-size: 28px;
         letter-spacing: 5px;
@@ -18,11 +31,11 @@
         margin-top: 8px;
     }
 
-    .agendaDiv {
+    .agenda-div {
         background-attachment: scroll;
     }
     
-    .introSection {
+    .intro-section {
         background-image: 
         linear-gradient(
           rgba(0, 0, 0, 0.4),
@@ -33,21 +46,21 @@
       min-height: 0;
     }
 
-    .arrowContainer {
+    .arrow-container {
         bottom: 110px;
         display: none;
     }
     
-    .downArrow {
+    .down-arrow {
         font-size: 40px !important;
     }
 
-    .mainHeaderDiv {
+    .main-header-div {
         padding-top: 120px;
         margin-bottom: 40px;
     }
 
-    .landingCircle {
+    .landing-circle {
         width: 100%;
         background: none;
     
@@ -59,88 +72,88 @@
         padding-top: 10px;
     }
     
-    .bannerText {
+    .banner-text {
         font-size: 18px;
     }
 
-    #buttonType {
+    #button-type {
         padding: 10px 40px;
         font-size: 18px;
     }
     
-    #buttonType:hover {
+    #button-type:hover {
         color: #00BFFF;
         background: white;
     }
 
 
-    .aboutDiv .timeInfo,
-    .aboutDiv .locationInfo {
+    .about-div .time-info,
+    .about-div .location-info {
         text-align: center;
     }
 
-    .aboutDiv .timeInfo p,
-    .aboutDiv .locationInfo p {
+    .about-div .time-info p,
+    .about-div .location-info p {
         font-size: 24px;
     }
 
 
-    .aboutDiv .eventInfo {
+    .about-div .event-info {
         width: 90%;
         padding: 20px 10px;
     }
 
-    .aboutDiv .eventInfo p {
+    .about-div .event-info p {
         font-size: 16px;
     }
 
-    .agendaInfo {
+    .agenda-info {
         padding-bottom: 30px;
     }
 
-    .agendaInfo p:first-child {
+    .agenda-info p:first-child {
         font-size: 30px;
     }
 
-    #wineryTable {
+    #winery-table {
         width: 90%;
         margin: 0 auto;
         padding-top: 5px;
     }
 
-    .imgDiv {
+    .img-div {
         text-align: center;
     }
 
-    .tableRow {
+    .table-row {
         border-top:#D3D3D3 solid 1px;
         padding: 5px;
     }
     
-    .rowTitle {
+    .row-title {
         font-size: 24px;
         letter-spacing: 2px;
         text-align: center;
     }
 
-    .contactName {
+    .contact-name {
         font-size: 20px;
         margin-bottom: 2px;
         margin-top: 10px;
     }
     
-    .contactEmail {
+    .contact-email {
         font-size: 18px;
         margin-bottom: 10px;
         margin-top: 0;
     }
 
-    .sponsorLogo {
+    .sponsor-logo {
         width: 275px;
         margin-bottom: 10px;
     }
 
-    .sponsorText {
+    .sponsor-text {
         display: none;
     }
     
