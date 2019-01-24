@@ -13,7 +13,6 @@ const FeaturedWinery = ({ location, description, descriptionMore }) => (
                     <div className='img-div'>
                         <img className='winery-img' src={logo} alt={`${location} logo`}/>
                     </div>
-                    
                 </Grid>
                 <Grid item xs={12} md={8}>
                     <p className='row-title'>{location}</p>

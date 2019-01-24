@@ -9,7 +9,7 @@ export const ADDRESS = '221 Garland St. Suite D';
 export const CITY = 'Traverse City, MI';
 export const LOCATION_LAT = 44.765271;
 export const LOCATION_LONG = -85.626044;
-export const RSVP_LINK = 'https://www.facebook.com/events/470265946793386/';
+export const RSVP_LINK = 'https://www.facebook.com/events/331456907461397/';
 export const AGENDA_LIST = [
     {
         key: 0,
@@ -24,7 +24,8 @@ export const AGENDA_LIST = [
     {
         key: 2,
         time: '7:50pm - 8:30pm',
-        detail: 'Lounge Tour'
+        detail: 'Lacie Thorton',
+        secondary: 'Distiller at Grand Traverse Distillery'
     },
     {
         key: 3,

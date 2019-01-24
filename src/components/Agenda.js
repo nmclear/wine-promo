@@ -7,10 +7,13 @@ const Agenda = ({ agendaList }) => (
         <Grid item xs={12}>
             <h4>AGENDA /</h4>
             <Grid container direction='column' alignItems='center'>
-                {agendaList.map(({key, time, detail}) => (
-                    <Grid id={`agenda-list-${key}`} item xs={12} className='agenda-info'>
+                {agendaList.map(({key, time, detail, secondary}) => (
+                    <Grid key={key} id={`agenda-list-${key}`} item xs={12} className='agenda-info'>
                     <p>{time}</p>
                     <p>{detail}</p>
+                    {secondary && (
+                        <p>{secondary}</p>
+                    )}
                 </Grid>
                 ))}
             </Grid>
