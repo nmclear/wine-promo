@@ -5,7 +5,7 @@ import PlaceIcon from '@material-ui/icons/Place';
 
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-const REACT_APP_MAP_TOKEN = 'pk.eyJ1Ijoibm1jbGVhciIsImEiOiJjam5jMDgyZ3IyeHNmM3Bxb3gyemNsaGZ0In0.hHiGe-CGXLXWG7ogzBjtEA';
+// const REACT_APP_MAP_TOKEN = 'pk.eyJ1Ijoibm1jbGVhciIsImEiOiJjam5jMDgyZ3IyeHNmM3Bxb3gyemNsaGZ0In0.hHiGe-CGXLXWG7ogzBjtEA';
 
 const navStyle = {
     position: 'absolute',
@@ -45,7 +45,7 @@ class GoogleMap extends Component {
 
     return (
       <ReactMapGL
-        mapboxApiAccessToken={REACT_APP_MAP_TOKEN}
+        mapboxApiAccessToken={process.env.REACT_APP_MAP_TOKEN}
         {...this.state.viewport}
         onViewportChange={(viewport) => this.setState({viewport})}
         scrollZoom={false}

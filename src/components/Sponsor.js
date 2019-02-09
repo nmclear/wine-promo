@@ -1,6 +1,6 @@
 import React from'react';
 import Grid from '@material-ui/core/Grid';
-import SponsorImg from './../images/sponsor.png'
+import SponsorImg from './../images/sponsor.jpg'
 
 const Sponsor = () => (
     

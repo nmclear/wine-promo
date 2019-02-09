@@ -1,11 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import logo from './../images/featured-winery.png';
+import logo from './../images/featured-winery.jpg';
 
 const FeaturedWinery = ({ location, description, descriptionMore }) => (
     <Grid className='winery-div'>
         <Grid item xs={12}>
-            <h1 className='header-blue'>Featured Location</h1>
+            <h1 className='header-blue'>Featured Winery</h1>
         </Grid>
         <Grid item xs={12} id='winery-table'>
             <Grid container className='table-row'>

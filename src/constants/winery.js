@@ -1,35 +1,34 @@
-export const description = `We are blessed to have found a home in the Central Lake community, and are proud to make it the smallest town in Michigan to have its own distillery (sorry Three Oaks)! Even when we were new to town we were treated like family, and we are thrilled to be contributing to all the great things happening here. Support for our local communities is woven into our purpose, and we are excited to be a part of all the new initiatives and activities taking place around our Central Lake home.`;
-export const descriptionMore = `Expanding our presence into the Traverse City community was an obvious next step for us, and we are excited to be part of this vibrant and energetic neighborhood of makers. Our TC Outpost offers fabulous craft and classic cocktails, but we're far more than just a lounge. Visit our maker space to learn about the distilling process, buy a bottle to take home, sign up for a class or book your next event here for a uniquely interactive experience. This location is an extension of our Torch Lake production campus—come see how!`;
+export const description = `In 1973, Larry Mawby planted his first vines. In 1976 Larry planted our Elm Valley vineyard, establishing the heart of the MAWBYness. Now with over 20 acres planted, our estate vineyard grows pinot noir, vignoles, pinot gris, regent, riesling, chardonnay and pinot meunier. To keep the MAWBYness flowing, we also purchase grapes from Leelanau County Southwest Michigan, California and Washington.`;
+export const descriptionMore = `L. Mawby is fine traditional method sparkling wines, classically styled, produced entirely from grapes grown on the Leelanau Peninsula. These wines express the character of this special place, the care of the people tending the vines, and the purity of intent of those guiding the transformation of grape to sparkling wine. The poetic brother to the songs of M.Lawrence. MAWBYhome.`;
 
-export const DATE = 'January 31st';
-export const TIME = '7-9PM';
-export const LOCATION_NAME = 'Mammoth Distilling Cocktail Lounge';
-export const SHORT_NAME = 'Mammoth Distilling';
-export const ADDRESS = '221 Garland St. Suite D';
-export const CITY = 'Traverse City, MI';
-export const LOCATION_LAT = 44.765271;
-export const LOCATION_LONG = -85.626044;
-export const RSVP_LINK = 'https://www.facebook.com/events/331456907461397/';
+export const DATE = 'February 21st';
+export const TIME = '6:30-8:30PM';
+export const LOCATION_NAME = 'L. Mawby Winery';
+export const SHORT_NAME = 'L. Mawby Winery';
+export const ADDRESS = '4519 Elm Valley Rd';
+export const CITY = 'Suttons Bay, MI';
+export const LOCATION_LAT = 44.913540;
+export const LOCATION_LONG = -85.653140;
+export const RSVP_LINK = 'https://www.facebook.com/events/575935479547758/';
 export const AGENDA_LIST = [
     {
         key: 0,
-        time: '7:00pm - 7:45pm',
+        time: '6:30pm - 7:15pm',
         detail: 'Networking + Cocktails',
     },
     {
         key: 1,
-        time: '7:45pm - 7:50pm',
-        detail: 'Welcoming Words'
+        time: '7:15pm - 7:20pm',
+        detail: 'Welcoming Words',
     },
     {
         key: 2,
-        time: '7:50pm - 8:30pm',
-        detail: 'Lacie Thorton',
-        secondary: 'Distiller at Grand Traverse Distillery'
+        time: '7:20pm - 8:00pm',
+        detail: 'L. Mawby Talk on Sparkling Wine',
     },
     {
         key: 3,
-        time: '8:30pm - 9:00pm',
-        detail: 'Networking + Cocktails'
+        time: '8:00pm - 8:30pm',
+        detail: 'Networking + Cocktails',
     }
 ]
